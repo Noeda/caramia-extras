@@ -12,10 +12,12 @@ build-type:          Simple
 cabal-version:       >=1.10
 
 description:
-    This library implements useful operations on top of the Caramia library.
-    .
-    The core Caramia library is low-level. This library brings some higher
-    level concepts to Caramia.
+    This library implements some useful operations on top of the Caramia
+    library.
+
+source-repository head
+    type:            git
+    location:        https://github.com/Noeda/caramia-extras.git
 
 library
   exposed-modules:     Caramia.Extras
