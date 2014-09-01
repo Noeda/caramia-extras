@@ -3,7 +3,9 @@
 -- The backend used in this module is JuicyPixels.
 --
 
-{-# LANGUAGE TupleSections #-}
+{-# LANGUAGE TupleSections, NoImplicitPrelude, ViewPatterns #-}
+{-# LANGUAGE DeriveDataTypeable, FlexibleContexts #-}
+{-# LANGUAGE OverloadedStrings #-}
 
 module Caramia.Extras.LoadImage
     (

@@ -1,4 +1,5 @@
-{-# LANGUAGE RecordWildCards, NegativeLiterals #-}
+{-# LANGUAGE RecordWildCards, NegativeLiterals, DeriveDataTypeable #-}
+{-# LANGUAGE NoImplicitPrelude, OverloadedStrings #-}
 
 -- | A toy module to implement fullscreen effects.
 --

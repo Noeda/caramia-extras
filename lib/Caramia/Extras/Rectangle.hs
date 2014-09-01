@@ -3,7 +3,8 @@
 
 {-# LANGUAGE ForeignFunctionInterface, RecordWildCards #-}
 {-# LANGUAGE MultiParamTypeClasses, DeriveFunctor #-}
-{-# LANGUAGE UndecidableInstances #-}
+{-# LANGUAGE FlexibleInstances, ViewPatterns #-}
+{-# LANGUAGE NoImplicitPrelude, DeriveDataTypeable #-}
 
 module Caramia.Extras.Rectangle
     (

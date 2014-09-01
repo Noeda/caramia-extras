@@ -1,4 +1,5 @@
-{-# LANGUAGE RecordWildCards #-}
+{-# LANGUAGE RecordWildCards, NoImplicitPrelude, MultiWayIf #-}
+{-# LANGUAGE ViewPatterns, FlexibleInstances #-}
 
 module Main ( main ) where
 
@@ -24,6 +25,7 @@ instance Eq (Identity Int) where
 main :: IO ()
 main = defaultMain tests
 
+tests :: [Test]
 tests =
   [ testGroup "Caramia.Extras.Rectangle" [
         testProperty "left-lens" prop_leftlens
